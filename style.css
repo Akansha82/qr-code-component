@@ -1,0 +1,43 @@
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-family: "Outfit", sans-serif;
+    
+}
+
+.flex-container{
+       display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+.card{
+    width: 300px;
+    height: 470px;
+    background-color: white;
+    border-radius: 3%;
+}
+
+.card img{
+    margin-top : 6%;
+    width: 270px;
+    height: auto;
+    border-radius: 4%;
+}
+
+.card-body{
+    padding: 3px 30px;
+}
+
+.card-text{
+    font-size: 0.9rem;
+    color : hsl(220, 15%, 55%);
+}
